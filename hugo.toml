@@ -1,29 +1,24 @@
-baseURL = "https://meik2333.com/"
-languageCode = "zh-cn"
-title = "MeiK's blog"
+baseURL = "chapi.ch"
+languageCode = "fr-ch"
+title = "Robin Chappalley - DevOps"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  author = "MeiK"
-  description = "In solitude, where we are least alone."
-  github = "MeiK2333"
-  facebook = "MeiK2333"
-  twitter = "MeiK2333"
-  linkedin = "MeiK2333"
-  instagram = "MeiK2333"
-  tumblr = "MeiK2333"
-  email = "meik2333@gmail.com"
-  url = "https://meik2333.com"
+  author = "Robin"
+  description = "Ship faster, safer and happier."
+  github = "RobinChappalley"
+  linkedin = "robin-chappalley"
+  email = "robin@chapi.ch"
+  url = "chapi.ch"
   keywords = "blog, google analytics"
-  rss = true
   lastmod = true
   favicon = "/images/github-mark.png"
-  avatar = "/images/avatar.png"
+  avatar = "/images/avatar.jpg"
   headerIcon = "/images/github-mark-white.png"
-  location = "China"
-  userStatusEmoji = "😀"
+  location = "Suisse"
+  userStatusEmoji = "🚀"
   enableGitalk = true
   enableSearch = true
 
