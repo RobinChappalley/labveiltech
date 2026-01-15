@@ -1,4 +1,4 @@
-baseURL = "chapi.ch"
+baseURL = "https://robinchappalley.github.io/labveiltech/"
 languageCode = "fr-ch"
 title = "Robin Chappalley - DevOps"
 theme = "github-style"
@@ -11,7 +11,7 @@ pygmentsUseClasses = true
   github = "RobinChappalley"
   linkedin = "robin-chappalley"
   email = "robin@chapi.ch"
-  url = "public"
+  url = "chapi.ch"
   keywords = "blog, google analytics"
   lastmod = true
   favicon = "/images/github-mark.png"
