@@ -37,15 +37,9 @@ pygmentsUseClasses = true
     proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token" # 可以自行添加反向代理
   [[params.links]]
     title = "Link"
-    href = "https://github.com/meik2333"
-  [[params.links]]
-    title = "Link2"
-    href = "https://meik2333.com"
-    icon = "https://meik2333.com/images/avatar.png"
+    href = "https://github.com/RobinChappalley"
+
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
 
-[services]
-  [services.googleAnalytics]
-    ID = "UA-123456-789"
