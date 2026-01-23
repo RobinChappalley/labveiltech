@@ -8,7 +8,7 @@
               <div class="d-none d-md-block">
                 <a class="avatar mr-2 flex-shrink-0" href="{{ .Site.BaseURL }}">
                   <img class=" avatar-user"
-                    src="{{ with $.Site.Params.avatar }}{{ $.Site.Params.avatar }}{{ else }}{{ "images/avatar.png" | absLangURL }}{{ end }}"
+                    src="{{ with $.Site.Params.avatar }}{{ $.Site.Params.avatar | relURL }}{{ else }}{{ "images/avatar.png" | absLangURL }}{{ end }}"
                     width="32" height="32"></a>
               </div>
               <div class="d-flex flex-column">
