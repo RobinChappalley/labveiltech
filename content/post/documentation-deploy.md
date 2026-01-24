@@ -3,6 +3,7 @@ date = '2026-01-15T10:49:38+01:00'
 draft = "false"
 title = "Écrire une bonne documentation pour expliquer son déploiement"
 summary = "Comment écrire une bonne documentation quotidienne sans en faire trop ?"
+tags = [ "documentation", "continuous-improvement"]
 +++
 
 ## Introduction

@@ -3,7 +3,7 @@ date = '2026-01-15T10:49:38+01:00'
 draft = "false"
 title = "La gestion des secrets et des variables d'environnement en intégration continue sur github"
 summary = "Comment gérer les secrets et les variables d'environnement"
-tags = ["devops", "continuous-improvement"]
+tags = ["devops","tool"]
 
 +++
 
