@@ -151,6 +151,25 @@ L'utilisation correcte des variables d'environnement et des secrets est essentie
 
 En adoptant ces pratiques, vous évitez les fuites de données accidentelles et facilitez la collaboration sur vos projets.
 
+## Pertinence pour ma veille
+
+### Pourquoi ce contenu est pertinent pour mon domaine ?
+
+En développement web, le déploiement automatisé est devenu la norme. Que ce soit pour déployer un site sur Vercel, Netlify ou un serveur personnel, les pipelines CI/CD font partie du quotidien. GitHub Actions étant intégré nativement à GitHub, c'est souvent le premier outil de CI/CD auquel un développeur web est confronté.
+
+De plus, les applications web manipulent constamment des données sensibles : clés d'API (Stripe, SendGrid, Firebase), tokens d'authentification, chaînes de connexion aux bases de données. Savoir les gérer correctement évite les fuites accidentelles qui peuvent coûter cher.
+
+### Quand ce contenu me sera utile ?
+
+- **Déploiement automatique** : configurer un pipeline qui build et déploie mon site à chaque push
+- **Intégration d'APIs tierces** : stocker proprement les clés pour des services comme Stripe, Cloudinary ou une base de données
+- **Projets collaboratifs** : permettre à mon équipe de travailler sans partager de credentials par Discord ou Slack
+- **Entretiens** : les questions sur la gestion des secrets sont classiques pour les postes full-stack
+
+### Pourquoi avoir sélectionné ce contenu ?
+
+L'article offre une synthèse claire avec des exemples de code réutilisables immédiatement. La progression (variables → scopes → secrets → cas pratique) est logique et le cas Snyk illustre bien l'intégration d'outils de sécurité dans un workflow — une compétence de plus en plus demandée aux développeurs web.
+
 Sources :
 [Stéphane Robert](https://blog.stephane-robert.info/docs/pipeline-cicd/github/fondations/secrets/) -
 [Snyk](https://www.youtube.com/watch?v=5xngh29yx9A)
